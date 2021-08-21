@@ -10,15 +10,15 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     margin: 0px;
     color: var(--primary-color);
-
+    
 }
 
 .navigation-part {
     background: var(--secondary-color);
     padding: 1rem;
     text-align: center;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1cm;
+    border-bottom-right-radius: 1cm;
 }
 
 .banana-translate {
@@ -27,14 +27,19 @@ body {
 
 .banana-image {
     width: 100px;
-    max-width: 80px;
 }
 
-textarea {
+main{
+    margin: auto;
+    padding: 2rem;
+    max-width: 600px;
+}
+
+.input{
     min-height: 20vh;
-    width: 50%;
+    width: 15cm;
     display: block;
-    margin: 2rem;
+    margin: auto;
     font-size: large;
     font-family: monospace;
     box-sizing: border-box;
@@ -45,21 +50,21 @@ textarea {
     border: none;
 }
 
-button {
-    margin-left: 2rem;
+.btn {
+    margin: auto;
     padding: 1rem;
+    padding-right: 1rem;
     font-size: large;
     border-radius: 1rem;
     background-color: var(--secondary-color);
-    border: none;
     color: var(--primary-color);
     font-family: monospace;
 }
 
-.result {
+.output {
     min-height: 15vh;
-    width: 48%;
-    margin: 2rem;
+    width: 15cm;
+    margin: auto;
     padding: 1rem;
     font-size: large;
     border-radius: 1rem;
@@ -69,18 +74,10 @@ button {
     background-color: var(--secondary-color);
 }
 
-
 .footer-part {
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 2rem;
-    display: block;
-    box-sizing: border-box;
-    font-size: larger;
-    
-}
-
-.footer-part .ending-part { 
-    /* font-weight: bold; */
-    
+    padding: 1rem;
+    border-top-left-radius: 1cm;
+    border-top-right-radius: 1cm;
 }
