@@ -11,6 +11,7 @@ body {
     margin: 0px;
     color: var(--primary-color);
     
+    
 }
 
 .navigation-part {
@@ -36,7 +37,7 @@ main{
 }
 
 .input{
-    min-height: 20vh;
+    min-height: 25vh;
     width: 15cm;
     display: block;
     margin: auto;
@@ -51,7 +52,7 @@ main{
 }
 
 .btn {
-    margin: auto;
+    margin: 1rem;
     padding: 1rem;
     padding-right: 1rem;
     font-size: large;
@@ -62,7 +63,7 @@ main{
 }
 
 .output {
-    min-height: 15vh;
+    min-height: 14vh;
     width: 15cm;
     margin: auto;
     padding: 1rem;
