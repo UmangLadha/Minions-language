@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 .root {
-    --primary-color: #121220;
+    --primary-color: #060616cb;
     --secondary-color: #F2C94C;
+    --width-break:600px;
 }
 
 body {
     background-color: var(--primary-color);
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Kalam', cursive;
     margin: 0px;
     color: var(--primary-color);
     
@@ -22,8 +23,11 @@ body {
     border-bottom-right-radius: 1cm;
 }
 
-.banana-translate {
+.banana-translate{ 
+    font-size: 2rem;
+    padding: 1rem;
     color: var(--primary-color);
+
 }
 
 .banana-image {
@@ -32,17 +36,17 @@ body {
 
 main{
     margin: auto;
-    padding: 2rem;
+    padding: 1rem;
     max-width: 600px;
 }
 
 .input{
-    min-height: 25vh;
-    width: 15cm;
+    min-height: 20vh;
+    width: 100%;
     display: block;
-    margin: auto;
+    margin-top: 1rem;
     font-size: large;
-    font-family: monospace;
+    font-family: kalam;
     box-sizing: border-box;
     padding: 1rem;
     background-color: var(--secondary-color);
@@ -54,31 +58,39 @@ main{
 .btn {
     margin: 1rem;
     padding: 1rem;
-    padding-right: 1rem;
     font-size: large;
     border-radius: 1rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    font-family: monospace;
+    font-family: kalam;
 }
 
 .output {
-    min-height: 14vh;
-    width: 15cm;
+    min-height: 15vh;
+    width: 90%;
     margin: auto;
     padding: 1rem;
     font-size: large;
+    font-family: kalam;
     border-radius: 1rem;
     color: var(--primary-color);
+    overflow-x: scroll var(--secondary-color);
     overflow-y: scroll var(--secondary-color);
     border: 1px solid var(--primary-color);
     background-color: var(--secondary-color);
 }
 
-.footer-part {
+ footer{
     background-color: var(--secondary-color);
     text-align: center;
     padding: 1rem;
     border-top-left-radius: 1cm;
     border-top-right-radius: 1cm;
+    color: var(--primary-color);
+    font-size: large;
 }
+ footer p {
+    max-width: var(--width-break);
+    margin: auto;
+    padding-top: 1rem;
+ }
