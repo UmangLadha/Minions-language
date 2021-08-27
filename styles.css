@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
 
 .root {
     --primary-color: #060616cb;
     --secondary-color: #F2C94C;
     --width-break:600px;
+    --font-family: 'Amarante', cursive;
 }
 
 body {
     background-color: var(--primary-color);
-    font-family: 'Kalam', cursive;
+    font-family: var(--font-family);
     margin: 0px;
     color: var(--primary-color);
-    
-    
 }
 
 .navigation-part {
@@ -46,7 +45,7 @@ main{
     display: block;
     margin-top: 1rem;
     font-size: large;
-    font-family: kalam;
+    font-family: var(--font-family);
     box-sizing: border-box;
     padding: 1rem;
     background-color: var(--secondary-color);
@@ -62,21 +61,20 @@ main{
     border-radius: 1rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    font-family: kalam;
+    font-family: var(--font-family);
 }
 
 .output {
     min-height: 15vh;
-    width: 90%;
+    width: 95%;
     margin: auto;
     padding: 1rem;
     font-size: large;
-    font-family: kalam;
+    font-family: var(--font-family);
     border-radius: 1rem;
     color: var(--primary-color);
-    overflow-x: scroll var(--secondary-color);
-    overflow-y: scroll var(--secondary-color);
-    border: 1px solid var(--primary-color);
+    overflow-wrap: break-word;
+    border: 1px solid;
     background-color: var(--secondary-color);
 }
 
